@@ -1,0 +1,26 @@
+{
+  "name": "zachrburke",
+  "version": "1.0.0",
+  "description": "New personal site for zach r. burke (me!).  Designed as a SPA using JSPM and babel for transpiling",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zach R Burke",
+  "license": "ISC",
+  "jspm": {
+    "directories": {
+      "baseURL": "scripts"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    }
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jspm-build": "0.0.14",
+    "jspm": "^0.16.30"
+  }
+}
